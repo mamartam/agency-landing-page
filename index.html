@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Agency landing page</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navigation">
+        <img src="assets/images/logo.svg" alt="Sunnyside Logo" />
+
+        <button class="burger" aria-label="Open menu">
+          <img
+            src="assets/images/icon-hamburger.svg"
+            alt="Icon for burger menu"
+          />
+        </button>
+
+        <ul class="main-nav-list">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+      <h1 class="main-header">We are creatives</h1>
+      <img
+        class="header-bg-img"
+        src="assets/images/icon-arrow-down.svg"
+        alt="icon-arrow-down"
+      />
+    </header>
+    <main>
+      <section class="sec-about-brand-transformation">
+        <div class="main-info">
+          <h2 class="sec-header">Transform your brand</h2>
+          <p class="sec-description">
+            We are a full-service creative agency specializing in helping brands
+            grow fast. Engage your clients through compelling visuals that do
+            most of the marketing for you.
+          </p>
+          <div class="btn-container transform-btn">
+            <button class="btn">Learn more</button>
+            <span class="btn-effect"></span>
+          </div>
+        </div>
+        <div class="transform-img">
+          <!-- <img
+            src="assets/images/mobile/image-transform.jpg"
+            alt="image-transform"
+          /> -->
+          <picture>
+            <source
+              srcset="assets/images/desktop/image-transform.jpg"
+              media="(min-width: 480px)"
+            />
+            <img
+              src="assets/images/mobile/image-transform.jpg"
+              alt="image-transform"
+            />
+          </picture>
+        </div>
+      </section>
+      <section class="sec-right-audiecne">
+        <div class="main-info">
+          <h2 class="sec-header">Stand out to the right audience</h2>
+          <p class="sec-description">
+            Using a collaborative formula of designers, researchers,
+            photographers, videographers, and copywriters, we’ll build and
+            extend your brand in digital places.
+          </p>
+          <div class="btn-container audiecne-btn">
+            <button class="btn">Learn More</button>
+            <span class="btn-effect"></span>
+          </div>
+        </div>
+        <div class="audiecne-img">
+          <picture>
+            <source
+              srcset="assets/images/desktop/image-stand-out.jpg"
+              media="(min-width: 480px)"
+            />
+            <img
+              src="assets/images/mobile/image-stand-out.jpg"
+              alt="image-stand-out"
+            />
+          </picture>
+        </div>
+      </section>
+      <section class="sec-useful-skills">
+        <div class="design">
+          <h3>Graphic design</h3>
+          <p>
+            Great design makes you memorable. We deliver artwork that
+            underscores your brand message and captures potential clients’
+            attention.
+          </p>
+        </div>
+        <div class="photography">
+          <h3>Photography</h3>
+          <p>
+            Increase your credibility by getting the most stunning, high-quality
+            photos that improve your business image.
+          </p>
+        </div>
+      </section>
+      <section class="sec-clients">
+        <h2>Client testimonials</h2>
+        <div class="clients-container">
+          <div class="client">
+            <img src="assets/images/image-emily.jpg" alt="Emily" />
+
+            <blockquote>
+              We put our trust in Sunnyside and they delivered, making sure our
+              needs were met and deadlines were always hit.
+            </blockquote>
+            <p><span>Emily R.</span> <br />Marketing Director</p>
+          </div>
+          <div class="client">
+            <img src="assets/images/image-thomas.jpg" alt="Thomas" />
+            <blockquote>
+              Sunnyside’s enthusiasm coupled with their keen interest in our
+              brand’s success made it a satisfying and enjoyable experience.
+            </blockquote>
+            <p>
+              <span>Thomas S.</span> <br />
+              Chief Operating Officer
+            </p>
+          </div>
+          <div class="client">
+            <img src="assets/images/image-jennie.jpg" alt="Jennie" />
+            <blockquote>
+              Incredible end result! Our sales increased over 400% when we
+              worked with Sunnyside. Highly recommended!
+            </blockquote>
+            <p><span>Jennie F.</span> <br />Business Owner</p>
+          </div>
+        </div>
+      </section>
+      <section class="gallery">
+        <picture>
+          <source
+            srcset="assets/images/desktop/image-gallery-milkbottles.jpg"
+            media="(min-width: 768px)"
+          />
+          <img
+            src="assets/images/mobile/image-gallery-milkbottles.jpg"
+            alt="milkbottles"
+          />
+        </picture>
+
+        <picture>
+          <source
+            srcset="assets/images/desktop/image-gallery-orange.jpg"
+            media="(min-width: 768px)"
+          />
+          <img
+            src="assets/images/mobile/image-gallery-orange.jpg"
+            alt="orange"
+          />
+        </picture>
+
+        <picture>
+          <source
+            srcset="assets/images/desktop/image-gallery-cone.jpg"
+            media="(min-width: 768px)"
+          />
+          <img src="assets/images/mobile/image-gallery-cone.jpg" alt="cone" />
+        </picture>
+
+        <picture>
+          <source
+            srcset="assets/images/desktop/image-gallery-sugarcubes.jpg"
+            media="(min-width: 768px)"
+          />
+          <img
+            src="assets/images/mobile/image-gallery-sugar-cubes.jpg"
+            alt="sugar-cubes"
+          />
+        </picture>
+      </section>
+    </main>
+    <footer>
+      <img
+        class="footer-logo-img"
+        src="assets/images/logo.svg"
+        alt="Sunnyside logo"
+      />
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#">About</a></li>
+        <li class="nav-item"><a href="#">Services</a></li>
+        <li class="nav-item"><a href="#">Projects</a></li>
+      </ul>
+      <ul class="soc-media-list">
+        <li class="soc-media-list-item">
+          <a href="#"
+            ><img src="assets/images/icon-facebook.svg" alt="facebook"
+          /></a>
+        </li>
+        <li class="soc-media-list-item">
+          <a href="#"
+            ><img src="assets/images/icon-instagram.svg" alt="instagram"
+          /></a>
+        </li>
+        <li class="soc-media-list-item">
+          <a href="#"
+            ><img src="assets/images/icon-twitter.svg" alt="twitter" />
+          </a>
+        </li>
+        <li class="soc-media-list-item">
+          <a href="#"
+            ><img src="assets/images/icon-pinterest.svg" alt="pinterest"
+          /></a>
+        </li>
+      </ul>
+    </footer>
+    <script defer src="js/main.js"></script>
+  </body>
+</html>
