@@ -67,7 +67,7 @@ button:focus-visible {
 }
 header {
   height: 70vh;
-  background-image: url(../assets/images/mobile/image-header.jpg);
+  background-image: url("../assets/images/mobile/image-header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
@@ -234,12 +234,12 @@ header {
 .design {
   grid-column: 1/2;
   grid-row: 1/2;
-  background-image: url(../assets/images/mobile/image-graphic-design.jpg);
+  background-image: url("../assets/images/mobile/image-graphic-design.jpg");
 }
 .photography {
   grid-column: 1/2;
   grid-row: 2/3;
-  background-image: url(../assets/images/mobile/image-photography.jpg);
+  background-image: url("../assets/images/mobile/image-photography.jpg");
 }
 .design h3,
 .photography h3 {
@@ -367,13 +367,13 @@ footer {
 /* small tablet styles */
 @media screen and (min-width: 480px) {
   header {
-    background-image: url(../assets/images/desktop/image-header.jpg);
+    background-image: url("../assets/images/desktop/image-header.jpg");
   }
   .design {
-    background-image: url(../assets/images/desktop/image-graphic-design.jpg);
+    background-image: url("../assets/images/desktop/image-graphic-design.jpg");
   }
   .photography {
-    background-image: url(../assets/images/desktop/image-photography.jpg);
+    background-image: url("../assets/images/desktop/image-photography.jpg");
   }
   .client blockquote {
     font-size: 1em;
@@ -429,12 +429,12 @@ footer {
   .design {
     grid-column: 1/2;
     grid-row: 1/2;
-    background-image: url(../assets/images/desktop/image-graphic-design.jpg);
+    background-image: url("../assets/images/desktop/image-graphic-design.jpg");
   }
   .photography {
     grid-column: 2/3;
     grid-row: 1/2;
-    background-image: url(../assets/images/desktop/image-photography.jpg);
+    background-image: url("../assets/images/desktop/image-photography.jpg");
   }
   .sec-header {
     text-align: start;
