@@ -20,3 +20,4 @@ This project was created based on a Frontend Mentor [https://www.frontendmentor.
 - Add more interactive elements and hover effects
 
 ## 🍿 Video
+https://github.com/user-attachments/assets/d142d3fa-429b-4424-b11f-2684077a8673
